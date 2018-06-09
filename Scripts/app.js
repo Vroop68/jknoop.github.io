@@ -19,29 +19,14 @@
     }
 
     function HomeContent() {
-        let AboutButton = document.getElementById("AboutButton");
 
-        AboutButton.textContent = "About";
 
-        // About Button event listener
-        AboutButton.addEventListener("click", AboutButtonClick);
-        AboutButton.addEventListener("mouseover", AboutButtonOver);
-        AboutButton.addEventListener("mouseout", AboutButtonOut);
+
     }
 
-    function ReturnPI() {
-        return Math.PI;
-    }
 
     function AboutContent() {
-        let myNumber = ReturnPI();
-        console.log("My Funky Number: " + myNumber);
 
-        let paragraph = document.getElementById("paragraph");
-
-        let mySentence = "";
-
-        paragraph.textContent = mySentence;
     }
 
     function Start() {
