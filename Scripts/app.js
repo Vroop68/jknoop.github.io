@@ -53,6 +53,14 @@
         
     }
 
+    function ContactContent(){
+        let submitBtn = document.getElementById("submitBtn")
+        submitBtn.addEventListener("click", function(event){
+            event.preventDefault();
+            window.open("index.html","_self");
+        });
+    }
+
     function Start() {
         // local variable
         let title = document.title;
@@ -72,6 +80,10 @@
 
             case "COMP125 - Projects":
                 ProjectsContent();
+                break;
+
+            case "COMP125 - Contact":
+                ContactContent();
                 break;
 
             default:

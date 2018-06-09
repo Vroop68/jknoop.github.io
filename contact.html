@@ -16,7 +16,9 @@
 <body>
     <!-- Main Nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">COMP125</a>
+        <a class="navbar-brand" href="#">         
+            <img src="./Assets/images/logo.png" width="50" height="55" alt="">
+            </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,7 +32,7 @@
             <a class="nav-link" href="./about.html"><i class="fa fa-info-circle fa-lg"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./projects.html"><i class="fa fa-info-circle fa-lg"></i> Projects</a>
+            <a class="nav-link" href="./projects.html"><i class="fa fa-briefcase fa-lg"></i> Projects</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="./contact.html"><i class="fa fa-comment fa-lg"></i> Contact<span class="sr-only">(current)</span></a>
@@ -72,7 +74,7 @@
                 <textarea class="form-control form-control-lg" id="Message" name="Message" rows="3" required></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-lg">Send</button>
+              <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">Send</button>
             </form>
           </div>
 
@@ -91,9 +93,6 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- App Scripts -->
-    <script src="./Scripts/home.js"></script>
-    <script src="./Scripts/about.js"></script>
-    <script src="./Scripts/contact.js"></script>
     <script src="./Scripts/app.js"></script>
 </body>
 
