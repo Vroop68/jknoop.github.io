@@ -53,7 +53,7 @@
         let submitBtn = document.getElementById("submitBtn")
         submitBtn.addEventListener("click", function(event){
             event.preventDefault();
-            window.open("index.html","_self");
+            window.open("about.html","_self");
         });
     }
 
