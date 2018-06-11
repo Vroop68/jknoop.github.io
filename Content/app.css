@@ -30,7 +30,8 @@ body
     margin-left: 75px;
 }
 #jumbotron {
-    margin: auto;
+    margin-left: 200px;
+    
     background: rgba(0, 63, 76, 0.5);
 
 }
