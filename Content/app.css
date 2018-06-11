@@ -32,8 +32,7 @@ body
 #jumbotron {
     margin: auto;
     background: rgba(0, 63, 76, 0.5);
-    padding: auto;
-    text-align: center;
+    padding-left: 100px;
 }
 hr {
     border-color: #003d66;
