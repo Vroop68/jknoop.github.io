@@ -30,8 +30,8 @@ body
     margin-left: 75px;  
 }
 #jumbotron {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
     background: rgba(0, 63, 76, 0.5);
 }
 hr {
