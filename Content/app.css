@@ -30,11 +30,16 @@ body
     margin-left: 75px;
 }
 #jumbotron {
-    margin-left: 200px;
-    
+    margin: auto;
     background: rgba(0, 63, 76, 0.5);
 
 }
 hr {
     border-color: #003d66;
+}
+
+/* Allows picture to resize according to browser size*/
+.pictureScaling{
+    width: 100%;
+    height: auto;
 }
