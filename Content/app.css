@@ -32,13 +32,13 @@ body
 #jumbotron {
     margin: auto;
     background: rgba(0, 63, 76, 0.5);
-
+    padding: auto;
+    text-align: center;
 }
 hr {
     border-color: #003d66;
 }
 
-/* Allows picture to resize according to browser size*/
 .pictureScaling{
     width: 100%;
     height: auto;
