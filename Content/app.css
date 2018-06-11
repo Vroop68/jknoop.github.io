@@ -13,10 +13,7 @@
     max-height: 400px;
     max-width: 400px;
 }
-.projectContainers
-{
-    width: 300px;
-}
+
 .projectTitle
 {
     width: 400px;
@@ -25,4 +22,19 @@ body
 {
     background-image:  url(../Assets/images/starfieldBackground.jpg);
     background-size: cover;
+    color: white;
+}
+.projectContentAlign
+{
+    text-align: center;
+    margin-left: 75px;
+}
+#jumbotron {
+    margin: auto;
+    padding: 10px;
+    background: rgba(0, 63, 76, 0.5);
+
+}
+hr {
+    border-color: #003d66;
 }
