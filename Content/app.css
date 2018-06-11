@@ -27,7 +27,7 @@ body
 .projectContentAlign
 {
     text-align: center;
-    margin-left: 75px;  
+    margin: auto; 
 }
 #jumbotron {
     margin-left: auto;
