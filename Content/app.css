@@ -27,11 +27,11 @@ body
 .projectContentAlign
 {
     text-align: center;
-    margin-left: 75px;
+    margin-left: 75px;  
 }
 #jumbotron {
     margin-left: 100px;
-    margin-right: auto;
+    margin-right: 100px;
     background: rgba(0, 63, 76, 0.5);
 }
 hr {
