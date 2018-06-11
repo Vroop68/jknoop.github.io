@@ -21,3 +21,8 @@
 {
     width: 400px;
 }
+body
+{
+    background-image:  url(../Assets/images/starfieldBackground.jpg);
+    background-size: cover;
+}
