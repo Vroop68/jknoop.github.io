@@ -1,8 +1,10 @@
-/* Custom CSS goes here */
+/* Custom CSS  file name: app.css Author: John Knoop site name: vroop68.github.io */
+/*Centering title with bootstrap mx-auto*/
 .aboutTitle
 {
     width: 200px;
 }
+/*Image formatting for picture of me*/
 .meImage
 {
     max-height: 400px ;
