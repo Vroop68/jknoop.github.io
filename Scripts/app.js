@@ -1,12 +1,10 @@
-// Custom JS
+// Custom JS  file name: app.js Author: John Knoop site name: vroop68.github.io 
 (function () {
     "use strict"
-
-
+    //function for home content. Page currently under construction
     function HomeContent() {
 
     }
-
 
     function AboutContent() {
         //Header for About page
@@ -64,6 +62,7 @@
         let submitBtn = document.getElementById("submitBtn")
         submitBtn.addEventListener("click", function(event){
             event.preventDefault();
+            //Default action is prevented and user is taken to about page
             window.open("about.html","_self");
         });
     }
@@ -73,7 +72,7 @@
         console.log("App Started!");
         console.log("----------------------------");
         console.log("Title: " + title);
-
+//Content is relayed to the correct pages
         switch (title) {
             case "COMP125 - Home":
                 HomeContent();
