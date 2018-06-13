@@ -15,7 +15,7 @@
         let missionStatement=document.getElementById("missionStatement");
         missionStatement.textContent="My mission is to work towards my diploma and hopefully have fun doing it. Afterwards I hope to enjoy games, specifically online MMO's.";
 
-         //Mission Statement
+         //Bio info
          let bio=document.getElementById("bio");
          bio.textContent="I am in my second semester of Interactive Gaming at Centennial College. I chose to study game design as I would love to tell interactive stories within games. I feel that games are a modern art form.  Some of my favorite things are:";
 
