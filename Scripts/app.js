@@ -15,7 +15,12 @@
 
         //Mission Statement
         let missionStatement=document.getElementById("missionStatement");
-        missionStatement.textContent="My mission is to work towards my diploma and hopefully enjoy doing it. Afterwards I hope to enjoy games, specifically online MMO's.";;
+        missionStatement.textContent="My mission is to work towards my diploma and hopefully have fun doing it. Afterwards I hope to enjoy games, specifically online MMO's.";
+
+         //Mission Statement
+         let bio=document.getElementById("bio");
+         bio.textContent="I am in my second semester of Interactive Gaming at Centennial College. I chose to study game design as I would love to tell interactive stories within games. I feel that games are a modern art form.  Some of my favorite things are:";
+
         //list of favorites
         let favorites = [
             "Video Games",
@@ -47,6 +52,11 @@
         let project2Content= document.getElementById("project2Content");
         project2Content.textContent="7 years ago the MMO Star Wars Galaxies shutdown. However a new version was released 2 years ago coded by fans.  Currently a project I am working on in my free time is helping to get all of my old friends I made in this game almost a decade ago ready to particpate in endgame team based challenges once again.";
         
+        let projectTitle3=document.getElementById("projectTitle3");
+        projectTitle3.textContent="TEST";
+
+        let project3Content= document.getElementById("project3Content");
+        project3Content.textContent="TEST.";
     }
 
     function ContactContent(){
