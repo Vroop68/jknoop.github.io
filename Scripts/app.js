@@ -53,10 +53,10 @@
         project2Content.textContent="7 years ago the MMO Star Wars Galaxies shutdown. However a new version was released 2 years ago coded by fans.  Currently a project I am working on in my free time is helping to get all of my old friends I made in this game almost a decade ago ready to particpate in endgame team based challenges once again.";
         
         let projectTitle3=document.getElementById("projectTitle3");
-        projectTitle3.textContent="TEST";
+        projectTitle3.textContent="Working With Udemy";
 
         let project3Content= document.getElementById("project3Content");
-        project3Content.textContent="TEST.";
+        project3Content.textContent="Over the years I have used Udemy as a learning tool. While lately school has kept be too busy to work on it I have used Udemy to learn about Java, HTML and CSS, some C# and C++ as well as some other subjects.  I have found it to be a great learning tool!";
     }
 
     function ContactContent(){
