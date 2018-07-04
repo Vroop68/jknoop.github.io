@@ -55,7 +55,7 @@
     project3Content.textContent =
       "Over the years I have used Udemy as a learning tool. While lately school has kept be too busy to work on it I have used Udemy to learn about Java, HTML and CSS, some C# and C++ as well as some other subjects.  I have found it to be a great learning tool!";
   }
-  //JS for contact page
+  //JS for  contact page and assignment 2 contact page
   function ContactContent() {
     let fullNameInput = document.getElementById("fullNameInput");
     let phoneInput = document.getElementById("phoneInput");
