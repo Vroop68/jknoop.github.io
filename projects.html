@@ -1,99 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-    <title>COMP125 - Projects</title>
-    <!-- CSS Section -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./Content/app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>COMP125 - Projects</title>
+  <!-- CSS Section -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Content/app.css">
 </head>
+
 <body>
-    <!-- Main Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">         
-        <img src="./Assets/images/logo.png" width="50" height="55" alt="">
-        </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <!-- Main Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./Assets/images/logo.png" width="50" height="55" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="./index.html"><i class="fa fa-home fa-lg"></i> Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./about.html"><i class="fa fa-info-circle fa-lg"></i> About</a>
-     </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="./projects.html"><i class="fa fa-briefcase fa-lg"></i> Projects<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./contact.html"><i class="fa fa-comment fa-lg"></i> Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-      
-      <h1 id="titleProjects" class="projectContentAlign"></h1>
-      <!--Jumbotron container for Project content-->
-      <div class="col-md-7 jumbotron" id="jumbotron">
-        <!--Project content organized using Bootstrap Grid-->
-       <!--Project 1-->
-      <div class="row">
-          <div class="col projectContentCenter">
-            <h2 id="projectTitle1" class=" projectContentAlign"></h2>
-            <div class="row">
-              <div  class="col projectContentAlign">
-                <p id="project1Content"></p>
-              </div>
-              <div class="col projectContentAlign">
-                <img src="Assets/images/careersGame.jpg" alt="Picture of careers game pieces" class="projectImages pictureScaling">
-              </div>
-            </div>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">
+            <i class="fa fa-home fa-lg"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">
+            <i class="fa fa-info-circle fa-lg"></i> About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./projects.html">
+            <i class="fa fa-briefcase fa-lg"></i> Projects
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">
+            <i class="fa fa-comment fa-lg"></i> Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./assignments.html">
+            <i class="fa fa-folder fa-lg"></i> Assignments</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1 id="titleProjects" class="projectContentAlign"></h1>
+  <!--Jumbotron container for Project content-->
+  <div class="col-md-7 jumbotron" id="jumbotron">
+    <!--Project content organized using Bootstrap Grid-->
+    <!--Project 1-->
+    <div class="row">
+      <div class="col projectContentCenter">
+        <h2 id="projectTitle1" class=" projectContentAlign"></h2>
+        <div class="row">
+          <div class="col projectContentAlign">
+            <p id="project1Content"></p>
           </div>
-      </div>    
-
-      <hr>
-      <!--Project 2-->
-      <div class="row">
-          <div class="col projectContentAlign ">
-              <h2 id="projectTitle2"></h2>
-              <div class="row">
-                <div class="col projectContentAlign">
-                  <p id="project2Content"></p>
-                </div>
-                <div class="col">
-                  <img src="Assets/images/SWG.jpg" alt="Photo of friends in Star Wars Galaxies" class="projectImages pictureScaling">
-                </div>
+          <div class="col projectContentAlign">
+            <img src="Assets/images/careersGame.jpg" alt="Picture of careers game pieces" class="projectImages pictureScaling">
           </div>
         </div>
-        </div>  
+      </div>
+    </div>
 
-        <hr>
-        <!--Project 3-->
-      <div class="row">
-          <div class="col projectContentAlign ">
-              <h2 id="projectTitle3"></h2>
-              <div class="row">
-                <div class="col projectContentAlign">
-                  <p id="project3Content"></p>
-                </div>
-                <div class="col">
-                  <img src="Assets/images/udemy.png" alt="Photo of C++ udemy course" class="projectImages pictureScaling">
-                </div>
+    <hr>
+    <!--Project 2-->
+    <div class="row">
+      <div class="col projectContentAlign ">
+        <h2 id="projectTitle2"></h2>
+        <div class="row">
+          <div class="col projectContentAlign">
+            <p id="project2Content"></p>
+          </div>
+          <div class="col">
+            <img src="Assets/images/SWG.jpg" alt="Photo of friends in Star Wars Galaxies" class="projectImages pictureScaling">
           </div>
         </div>
-        </div> 
-            
+      </div>
+    </div>
 
-    
+    <hr>
+    <!--Project 3-->
+    <div class="row">
+      <div class="col projectContentAlign ">
+        <h2 id="projectTitle3"></h2>
+        <div class="row">
+          <div class="col projectContentAlign">
+            <p id="project3Content"></p>
+          </div>
+          <div class="col">
+            <img src="Assets/images/udemy.png" alt="Photo of C++ udemy course" class="projectImages pictureScaling">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
     <!-- JavaScript Section -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./Scripts/app.js"></script>
 </body>
+
 </html>

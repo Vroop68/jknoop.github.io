@@ -1,43 +1,54 @@
 /* Custom CSS  file name: app.css Author: John Knoop site name: vroop68.github.io */
 
 /*Centering title with bootstrap mx-auto*/
-.aboutTitle
-{
-    width: 200px;
+.aboutTitle {
+  width: 200px;
 }
 /*Image formatting for picture of me*/
-.meImage
-{
-    max-width: 350px;
-    border-radius: 30%;
+.meImage {
+  max-width: 350px;
+  border-radius: 30%;
 }
 
 /*Background setting and text color*/
-body
-{
-    background-image:  url(../Assets/images/starfieldBackground.jpg);
-    background-size: cover;
-    color: white;
+body {
+  background-image: url(../Assets/images/starfieldBackground.jpg);
+  background-size: cover;
+  color: white;
 }
 /*alignment css for content on project page*/
-.projectContentAlign
-{
-    text-align: center;
-    margin: auto; 
+.projectContentAlign {
+  text-align: center;
+  margin: auto;
 }
 /*jumbotron color and alignment*/
 #jumbotron {
-    margin-left: auto;
-    margin-right: auto;
-    background: rgba(0, 63, 76, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 63, 76, 0.5);
 }
 /*color for headrules*/
 hr {
-    border-color: #003d66;
+  border-color: #003d66;
 }
 
-.pictureScaling
-{
-    width: 100%;
-    height: auto;
+.pictureScaling {
+  width: 100%;
+  height: auto;
 }
+
+#assignmentsJumbotron {
+  max-width: 20em;
+  margin: auto;
+  width: 50%;
+}
+
+#sendButton{
+    float: left;
+}
+
+#canBtn
+{
+    float: right;
+}
+

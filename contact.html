@@ -14,32 +14,43 @@
 </head>
 
 <body>
-    <!-- Main Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">         
-        <img src="./Assets/images/logo.png" width="50" height="55" alt="">
-        </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <!-- Main Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./Assets/images/logo.png" width="50" height="55" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="./index.html"><i class="fa fa-home fa-lg"></i> Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./about.html"><i class="fa fa-info-circle fa-lg"></i> About</a>
-     </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./projects.html"><i class="fa fa-briefcase fa-lg"></i> Projects</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="./contact.html"><i class="fa fa-comment fa-lg"></i> Contact<span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">
+            <i class="fa fa-home fa-lg"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">
+            <i class="fa fa-info-circle fa-lg"></i> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./projects.html">
+            <i class="fa fa-briefcase fa-lg"></i> Projects</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./contact.html">
+            <i class="fa fa-comment fa-lg"></i> Contact
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./assignments.html">
+            <i class="fa fa-folder fa-lg"></i> Assignments</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- Contact Form -->
   <div class="container">
     <div class="row justify-content-center">
@@ -48,30 +59,32 @@
           <div class="card-header  text-white bg-dark mb-3">
             <h1 class="card-title">Contact Me</h1>
           </div>
-          
+
 
 
           <div class="card-body">
-              <h4 class="card-subtitle mb-2 text-muted">* All Fields are Required</h4>
-            <form>
+            <h4 class="card-subtitle mb-2 text-muted">* All Fields are Required</h4>
+            <form id="contactForm" class="MidtermForm">
               <div class="form-group">
-                <label for="FullName">Full Name</label>
-                <input type="text" class="form-control form-control-lg" id="FullName" name="FullName" placeholder="Enter Your Name" required>
+                <label for="firstName">First Name</label>
+                <input id="firstNameInput" type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
               </div>
-
               <div class="form-group">
-                <label for="ContactNumber">Contact Number</label>
-                <input type="text" class="form-control form-control-lg" id="ContactNumber" name="ContactNumber" placeholder="Enter Your Contact Number" required>
+                <label for="lastName">Last Name</label>
+                <input id="lastNameInput" type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
               </div>
-
               <div class="form-group">
-                <label for="EmailAddress">Email address</label>
-                <input type="email" class="form-control form-control-lg" id="EmailAddress" name="EmailAddress" placeholder="Enter Your Email Address" required>
+                <label class="form-label" for="contactNumber">Contact Number</label>
+                <input id="phoneInput" type="tel" class="form-control" id="contactNumber" name="email" placeholder="Contact Number" required>
               </div>
-
               <div class="form-group">
-                <label for="Message">Enter Message</label>
-                <textarea class="form-control form-control-lg" id="Message" name="Message" rows="3" required></textarea>
+                <label class="form-label" for="email">Email</label>
+                <input id="emailInput" type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <label for="comments">Your Message</label>
+                <textarea id="commentsInput" class="form-control" rows="5" id="yourMessage" name="comments" placeholder="Enter Your Comments Here"
+                  required></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary btn-lg bg-dark btn-outline-light" id="submitBtn">Send</button>
@@ -88,12 +101,12 @@
 
   <!-- JavaScript Section -->
 
-    <!-- 3rd Party Libraries -->
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- 3rd Party Libraries -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- App Scripts -->
-    <script src="./Scripts/app.js"></script>
+  <!-- App Scripts -->
+  <script src="./Scripts/app.js"></script>
 </body>
 
 </html>
