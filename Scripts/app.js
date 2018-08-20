@@ -4,6 +4,19 @@
   //function for home content. Page currently under construction
   function HomeContent() {}
 
+  function Lab3() {
+    //Header for About page
+    let aboutTitle = document.getElementById("aboutTitle");
+    aboutTitle.textContent = "About Me";
+    //list of favorites
+    let favorites = ["Video Games", "Music", "Film", "Science"];
+    let myFavorites = document.getElementById("favorites");
+    favorites.forEach(item => {
+      let newItem = document.createElement("li");
+      newItem.textContent = item;
+      myFavorites.appendChild(newItem);
+    });
+  }
   function AboutContent() {
     //Header for About page
     let aboutTitle = document.getElementById("aboutTitle");
@@ -93,6 +106,9 @@
 
       case "COMP125 - About":
         AboutContent();
+        break;
+        case "COMP125 - About2":
+        Lab3();
         break;
 
       case "COMP125 - Projects":
