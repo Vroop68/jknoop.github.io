@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>COMP125 - Home</title>
+  <title>COMP125 - About</title>
   <!-- CSS Section -->
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
   <!-- Main Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
@@ -26,15 +25,15 @@
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link" href="./index.html">
-            <i class="fa fa-home fa-lg"></i> Home
+            <i class="fa fa-home fa-lg"></i> Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./about.html">
+            <i class="fa fa-info-circle fa-lg"></i> About
             <span class="sr-only">(current)</span>
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">
-            <i class="fa fa-info-circle fa-lg"></i> About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./projects.html">
@@ -52,13 +51,33 @@
     </div>
   </nav>
 
-  <p>This is a placeholder</p>
+  <!-- Content organized with Bootstrap Grid-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 id="aboutTitle" class="mx-auto aboutTitle"></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="jumbotron">
+          <p id="missionStatement">
+          </p>
+          <p id="bio">
+          </p>
+          <ul id="favorites"></ul>
+        </div>
+      </div>
+      <div class="col">
+        <img src="/Assets/images/me.jpg" alt="Photo of me" class="meImage">
+      </div>
+    </div>
+  </div>
 
   <!-- JavaScript Section -->
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="./Scripts/app.js"></script>
-  <script src="node_modules/easeljs//lib/easeljs.min.js"></script>
 </body>
 
 </html>

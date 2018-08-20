@@ -17,8 +17,18 @@
   },
   "homepage": "https://github.com/CentennialCollege/COMP125-S2018-Lesson2A#readme",
   "dependencies": {
+    "@types/preloadjs": "^0.6.32",
+    "@types/soundjs": "^0.6.27",
+    "@types/tweenjs": "^1.0.0",
     "bootstrap": "^4.1.1",
+    "easeljs": "^1.0.2",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "preloadjs": "^1.0.1",
+    "soundjs": "^1.0.1",
+    "tweenjs": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/easeljs": "^1.0.0"
   }
 }
