@@ -10,7 +10,7 @@
     aboutTitle.textContent = "About Me";
     //list of favorites
     let favorites = ["Video Games", "Music", "Film", "Science"];
-    let myFavorites = document.getElementById("myFavorites");
+    let myFavorites = document.getElementById("favorites");
     favorites.forEach(item => {
       let newItem = document.createElement("li");
       newItem.textContent = item;
@@ -107,7 +107,7 @@
       case "COMP125 - About":
         AboutContent();
         break;
-
+        
         case "COMP125 - About2":
         Lab3();
         break;
